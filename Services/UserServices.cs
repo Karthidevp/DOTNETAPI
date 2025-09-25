@@ -10,7 +10,7 @@ using Model;
 
 namespace Services
 {
-    public class UserServices
+    public class UserServices: 
     {
         private readonly IDbConnection _dbConnection;
 

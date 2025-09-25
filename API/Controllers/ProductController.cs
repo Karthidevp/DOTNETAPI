@@ -1,4 +1,4 @@
-﻿using Interface;
+﻿using Interfaces;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using static Model.ProductModel;
