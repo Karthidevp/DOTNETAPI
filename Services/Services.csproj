@@ -6,4 +6,16 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.1.66" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="5.0.17" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="6.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="9.0.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Interface\Interface.csproj" />
+    <ProjectReference Include="..\Model\Model.csproj" />
+  </ItemGroup>
+
 </Project>
